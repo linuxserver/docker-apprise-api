@@ -29,7 +29,7 @@ pipeline {
     MULTIARCH='true'
     CI='true'
     CI_WEB='true'
-    CI_PORT='8080'
+    CI_PORT='8000'
     CI_SSL='false'
     CI_DELAY='120'
     CI_DOCKERENV='TZ=US/Pacific'
