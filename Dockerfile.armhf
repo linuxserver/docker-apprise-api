@@ -13,7 +13,6 @@ RUN \
    echo "**** install build packages ****" && \
    apk add --no-cache --upgrade --virtual=build-dependencies \
       cargo \
-      cargo \
       curl \
       g++ \
       gcc \
