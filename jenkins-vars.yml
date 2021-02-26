@@ -1,0 +1,30 @@
+---
+# jenkins variables
+project_name: docker-apprise-api
+external_type: custom_json
+release_type: stable
+release_tag: latest
+ls_branch: main
+repo_vars:
+  - JSON_URL = 'https://api.github.com/repos/caronc/apprise-api/tags'
+  - JSON_PATH = '.[0].name'
+  - BUILD_VERSION_ARG = 'APPRISE_TAG'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-apprise-api'
+  - CONTAINER_NAME = 'apprise-api'
+  - DOCKERHUB_IMAGE = 'linuxserver/apprise-api'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/apprise-api'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/apprise-api'
+  - DIST_IMAGE = 'alpine'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='8000'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''
+
+sponsor_links:
+  - { name: "Apprise", url: "https://www.paypal.me/lead2gold" }
