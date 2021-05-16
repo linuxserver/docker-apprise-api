@@ -10,43 +10,44 @@ LABEL maintainer="Roxedus"
 ENV APPRISE_CONFIG_DIR=/config
 
 RUN \
-   echo "**** install build packages ****" && \
-   apk add --no-cache --upgrade --virtual=build-dependencies \
-      cargo \
-      curl \
-      g++ \
-      gcc \
-      jq \
-      libffi-dev \
-      openssl-dev \
-      python3-dev && \
-   echo "**** install runtime packages ****" && \
-   apk add --no-cache --upgrade \
-      py3-pip \
-      python3 \
-      uwsgi \
-      uwsgi-python && \
-   if [ -z ${APPRISE_TAG+x} ]; then \
-      APPRISE_TAG=$(curl -s https://api.github.com/repos/caronc/apprise-api/tags \
+  echo "**** install build packages ****" && \
+  apk add --no-cache --upgrade --virtual=build-dependencies \
+    cargo \
+    curl \
+    g++ \
+    gcc \
+    jq \
+    libffi-dev \
+    openssl-dev \
+    python3-dev && \
+  echo "**** install runtime packages ****" && \
+  apk add --no-cache --upgrade \
+    py3-pip \
+    python3 \
+    uwsgi \
+    uwsgi-python && \
+  if [ -z ${APPRISE_TAG+x} ]; then \
+    APPRISE_TAG=$(curl -s https://api.github.com/repos/caronc/apprise-api/tags \
       | jq -r ". | .[0].name"); \
-   fi && \
-   mkdir -p /app/apprise-api && \
-   curl -o \
-      /tmp/apprise-api.tar.gz -L \
-      "https://github.com/caronc/apprise-api/archive/${APPRISE_TAG}.tar.gz" && \
-   tar xf \
-      /tmp/apprise-api.tar.gz -C \
-      /app/apprise-api/ --strip-components=1 && \
-   echo "**** install pip packages ****" && \
-   cd /app/apprise-api && \
-   pip3 install --no-cache-dir -r requirements.txt && \
-   echo "**** cleanup ****" && \
-   apk del --purge \
-      build-dependencies && \
-   rm -rf \
-      /root/.cache \
-      /root/.cargo \
-      /tmp/*
+  fi && \
+  mkdir -p /app/apprise-api && \
+  curl -o \
+    /tmp/apprise-api.tar.gz -L \
+    "https://github.com/caronc/apprise-api/archive/${APPRISE_TAG}.tar.gz" && \
+  tar xf \
+    /tmp/apprise-api.tar.gz -C \
+    /app/apprise-api/ --strip-components=1 && \
+  echo "**** install pip packages ****" && \
+  cd /app/apprise-api && \
+  pip3 install -U --no-cache-dir pip && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine/ -r requirements.txt && \
+  echo "**** cleanup ****" && \
+  apk del --purge \
+    build-dependencies && \
+  rm -rf \
+    /root/.cache \
+    /root/.cargo \
+    /tmp/*
 
 # copy local files
 COPY root/ /

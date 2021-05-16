@@ -4,4 +4,4 @@
 cd /app/apprise-api/apprise_api || exit
 
 exec \
-	s6-setuidgid abc /usr/sbin/uwsgi --http-socket=:8000 --enable-threads --plugin=python3 --module=core.wsgi:application --static-map=/s=static
+    s6-setuidgid abc /usr/sbin/uwsgi --http-socket=:8000 --enable-threads --plugin=python3 --module=core.wsgi:application --static-map=/s=static
