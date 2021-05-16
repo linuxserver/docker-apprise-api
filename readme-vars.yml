@@ -79,4 +79,5 @@ app_setup_block: []
 
 # changelog
 changelogs:
+  - { date: "16.05.21:", desc: "Add linuxserver wheel index." }
   - { date: "26.02.21:", desc: "Initial Release." }
