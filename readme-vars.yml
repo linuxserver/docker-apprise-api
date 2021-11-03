@@ -79,5 +79,6 @@ app_setup_block: []
 
 # changelog
 changelogs:
+  - { date: "03.11.21:", desc: "Increase uWSGI buffer size to 32kb." }
   - { date: "16.05.21:", desc: "Add linuxserver wheel index." }
   - { date: "26.02.21:", desc: "Initial Release." }
