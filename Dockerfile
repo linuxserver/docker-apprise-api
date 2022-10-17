@@ -13,10 +13,8 @@ RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --upgrade --virtual=build-dependencies \
     cargo \
-    curl \
     g++ \
     gcc \
-    jq \
     libffi-dev \
     openssl-dev \
     python3-dev && \
