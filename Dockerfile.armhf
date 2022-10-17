@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.15
+FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.16
 
 # set version label
 ARG BUILD_DATE
@@ -40,7 +40,7 @@ RUN \
   echo "**** install pip packages ****" && \
   cd /app/apprise-api && \
   pip3 install -U --no-cache-dir pip wheel && \
-  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.15/ -r requirements.txt && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.16/ -r requirements.txt && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
@@ -51,3 +51,4 @@ RUN \
 
 # copy local files
 COPY root/ /
+EXPOSE 8000
