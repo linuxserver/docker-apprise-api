@@ -1,5 +1,4 @@
 ---
-
 # project information
 project_name: apprise-api
 project_url: "https://github.com/caronc/apprise-api"
@@ -79,6 +78,7 @@ app_setup_block: []
 
 # changelog
 changelogs:
+  - { date: "17.10.22:", desc: "Rebase to alpine 3.16, migrate to S6V3"}
   - { date: "28.02.21:", desc: "Rebase to alpine 3.15." }
   - { date: "03.11.21:", desc: "Increase uWSGI buffer size to 32kb." }
   - { date: "16.05.21:", desc: "Add linuxserver wheel index." }
