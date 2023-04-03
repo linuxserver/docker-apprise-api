@@ -1,5 +1,5 @@
 NAME                    VERSION                TYPE   
-Django                  4.1.7                  python  
+Django                  4.2                    python  
 Markdown                3.4.3                  python  
 PyYAML                  6.0                    python  
 alpine-baselayout       3.4.0-r0               apk     
