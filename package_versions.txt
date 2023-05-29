@@ -8,7 +8,7 @@ alpine-keys             2.4-r1                 apk
 alpine-release          3.17.3-r0              apk     
 apk-tools               2.12.10-r1             apk     
 apprise                 1.4.0                  python  
-asgiref                 3.6.0                  python  
+asgiref                 3.7.2                  python  
 bash                    5.2.15-r0              apk     
 brotli-libs             1.0.9-r9               apk     
 busybox                 1.35.0                 binary  
@@ -22,7 +22,7 @@ charset-normalizer      3.1.0                  python
 click                   8.1.3                  python  
 coreutils               9.1-r0                 apk     
 cryptography            40.0.2                 python  
-curl                    8.1.0-r1               apk     
+curl                    8.1.1-r1               apk     
 gdbm                    1.23-r0                apk     
 gntp                    1.0.3                  python  
 gunicorn                20.1.0                 python  
@@ -36,7 +36,7 @@ libbz2                  1.0.8-r4               apk
 libc-utils              0.7.2-r3               apk     
 libcap2                 2.66-r1                apk     
 libcrypto3              3.0.8-r4               apk     
-libcurl                 8.1.0-r2               apk     
+libcurl                 8.1.1-r1               apk     
 libexpat                2.5.0-r0               apk     
 libffi                  3.4.4-r0               apk     
 libgcc                  12.2.1_git20220924-r4  apk     
@@ -47,12 +47,12 @@ libssl3                 3.0.8-r4               apk
 libstdc++               12.2.1_git20220924-r4  apk     
 libxml2                 2.10.4-r0              apk     
 linux-pam               1.5.2-r1               apk     
-mailcap                 2.1.53-r0              apk     
+mailcap                 2.1.54-r0              apk     
 mpdecimal               2.5.1-r1               apk     
 musl                    1.2.3-r5               apk     
 musl-utils              1.2.3-r5               apk     
-ncurses-libs            6.3_p20221119-r0       apk     
-ncurses-terminfo-base   6.3_p20221119-r0       apk     
+ncurses-libs            6.3_p20221119-r1       apk     
+ncurses-terminfo-base   6.3_p20221119-r1       apk     
 netcat-openbsd          1.130-r4               apk     
 nghttp2-libs            1.51.0-r0              apk     
 oauthlib                3.2.2                  python  
@@ -65,7 +65,7 @@ pycparser               2.21                   python
 python                  3.10.11                binary  
 python3                 3.10.11-r0             apk     
 readline                8.2.0-r0               apk     
-requests                2.30.0                 python  
+requests                2.31.0                 python  
 requests-oauthlib       1.3.1                  python  
 scanelf                 1.3.5-r1               apk     
 setuptools              65.5.0                 python  
@@ -74,6 +74,7 @@ skalibs                 2.12.0.1-r0            apk
 sqlite-libs             3.40.1-r0              apk     
 sqlparse                0.4.4                  python  
 ssl_client              1.35.0-r29             apk     
+typing_extensions       4.6.2                  python  
 tzdata                  2023c-r0               apk     
 urllib3                 2.0.2                  python  
 utmps-libs              0.1.2.0-r1             apk     
