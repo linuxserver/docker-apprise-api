@@ -1,5 +1,5 @@
 NAME                    VERSION                TYPE   
-Django                  4.2.1                  python  
+Django                  4.2.2                  python  
 Markdown                3.4.3                  python  
 PyYAML                  6.0                    python  
 alpine-baselayout       3.4.0-r0               apk     
@@ -62,8 +62,8 @@ pcre                    8.45-r2                apk
 pip                     23.1.2                 python  
 procps                  3.3.17-r2              apk     
 pycparser               2.21                   python  
-python                  3.10.11                binary  
-python3                 3.10.11-r0             apk     
+python                  3.10.12                binary  
+python3                 3.10.12-r0             apk     
 readline                8.2.0-r0               apk     
 requests                2.31.0                 python  
 requests-oauthlib       1.3.1                  python  
@@ -76,7 +76,7 @@ sqlparse                0.4.4                  python
 ssl_client              1.35.0-r29             apk     
 typing_extensions       4.6.3                  python  
 tzdata                  2023c-r0               apk     
-urllib3                 2.0.2                  python  
+urllib3                 2.0.3                  python  
 utmps-libs              0.1.2.0-r1             apk     
 uwsgi                   2.0.21-r0              apk     
 uwsgi-python3           2.0.21-r0              apk     
