@@ -74,7 +74,7 @@ skalibs                 2.12.0.1-r0            apk
 sqlite-libs             3.40.1-r0              apk     
 sqlparse                0.4.4                  python  
 ssl_client              1.35.0-r29             apk     
-typing_extensions       4.6.3                  python  
+typing_extensions       4.7.0                  python  
 tzdata                  2023c-r0               apk     
 urllib3                 2.0.3                  python  
 utmps-libs              0.1.2.0-r1             apk     
