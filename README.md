@@ -224,6 +224,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.07.23:** - Rebase to Alpine 3.18.
 * **01.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)
 * **11.02.23:** - Rebase to Alpine 3.17.
 * **17.10.22:** - Rebase to alpine 3.16, migrate to S6V3
