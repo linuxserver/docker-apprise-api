@@ -24,9 +24,9 @@ coreutils                   9.3-r1                  apk
 cryptography                41.0.3                  python  
 curl                        8.2.1-r0                apk     
 gdbm                        1.23-r1                 apk     
-gevent                      23.9.0.post1            python  
+gevent                      23.9.1                  python  
 gntp                        1.0.3                   python  
-greenlet                    2.0.2                   python  
+greenlet                    3.0.0rc3                python  
 gunicorn                    21.2.0                  python  
 idna                        3.4                     python  
 jansson                     2.14-r3                 apk     
