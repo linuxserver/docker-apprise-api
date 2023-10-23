@@ -18,7 +18,7 @@ ca-certificates             20230506-r0             apk
 ca-certificates-bundle      20230506-r0             apk     
 certifi                     2023.7.22               python  
 cffi                        1.16.0                  python  
-charset-normalizer          3.3.0                   python  
+charset-normalizer          3.3.1                   python  
 click                       8.1.7                   python  
 coreutils                   9.3-r1                  apk     
 cryptography                41.0.4                  python  
@@ -65,7 +65,7 @@ oniguruma                   6.9.8-r1                apk
 packaging                   23.2                    python  
 paho-mqtt                   1.6.1                   python  
 pcre                        8.45-r3                 apk     
-pip                         23.3                    python  
+pip                         23.3.1                  python  
 procps-ng                   4.0.4-r0                apk     
 pyc                         0.1-r0                  apk     
 pycparser                   2.21                    python  
@@ -83,7 +83,7 @@ sqlite-libs                 3.41.2-r2               apk
 sqlparse                    0.4.4                   python  
 ssl_client                  1.36.1-r4               apk     
 tzdata                      2023c-r1                apk     
-urllib3                     2.0.6                   python  
+urllib3                     2.0.7                   python  
 utmps-libs                  0.1.2.1-r1              apk     
 uwsgi                       2.0.21-r3               apk     
 uwsgi-python3               2.0.21-r3               apk     
