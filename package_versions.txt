@@ -16,7 +16,7 @@ busybox                   1.36.1-r5               apk
 busybox-binsh             1.36.1-r5               apk     
 ca-certificates           20230506-r0             apk     
 ca-certificates-bundle    20230506-r0             apk     
-certifi                   2023.7.22               python  
+certifi                   2023.11.17              python  
 cffi                      1.16.0                  python  
 charset-normalizer        3.3.2                   python  
 click                     8.1.7                   python  
@@ -51,7 +51,7 @@ libproc2                  4.0.4-r0                apk
 libssl3                   3.1.4-r1                apk     
 libstdc++                 12.2.1_git20220924-r10  apk     
 libunistring              1.1-r1                  apk     
-libxml2                   2.11.4-r0               apk     
+libxml2                   2.11.6-r0               apk     
 linux-pam                 1.5.2-r10               apk     
 mailcap                   2.1.54-r0               apk     
 mpdecimal                 2.5.1-r2                apk     
@@ -83,7 +83,7 @@ sqlite-libs               3.41.2-r2               apk
 sqlparse                  0.4.4                   python  
 ssl_client                1.36.1-r5               apk     
 tzdata                    2023c-r1                apk     
-urllib3                   2.0.7                   python  
+urllib3                   2.1.0                   python  
 utmps-libs                0.1.2.1-r1              apk     
 uwsgi                     2.0.21-r3               apk     
 uwsgi-python3             2.0.21-r3               apk     
