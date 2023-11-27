@@ -28,7 +28,7 @@ gevent                    23.9.1                  python
 gntp                      1.0.3                   python  
 greenlet                  3.0.1                   python  
 gunicorn                  21.2.0                  python  
-idna                      3.4                     python  
+idna                      3.6                     python  
 jansson                   2.14-r3                 apk     
 jq                        1.6-r3                  apk     
 libacl                    2.3.1-r3                apk     
@@ -87,7 +87,7 @@ urllib3                   2.1.0                   python
 utmps-libs                0.1.2.1-r1              apk     
 uwsgi                     2.0.21-r3               apk     
 uwsgi-python3             2.0.21-r3               apk     
-wheel                     0.41.3                  python  
+wheel                     0.42.0                  python  
 xz-libs                   5.4.3-r0                apk     
 zlib                      1.2.13-r1               apk     
 zope.event                5.0                     python  
