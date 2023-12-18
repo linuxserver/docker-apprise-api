@@ -65,7 +65,7 @@ oniguruma                 6.9.8-r1                apk
 packaging                 23.2                    python  
 paho-mqtt                 1.6.1                   python  
 pcre                      8.45-r3                 apk     
-pip                       23.3.1                  python  
+pip                       23.3.2                  python  
 procps-ng                 4.0.4-r0                apk     
 pyc                       0.1-r0                  apk     
 pycparser                 2.21                    python  
