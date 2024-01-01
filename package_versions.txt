@@ -82,7 +82,7 @@ skalibs                 2.13.1.1-r1             apk
 sqlite-libs             3.41.2-r2               apk     
 sqlparse                0.4.4                   python  
 ssl_client              1.36.1-r5               apk     
-tzdata                  2023c-r1                apk     
+tzdata                  2023d-r0                apk     
 urllib3                 2.1.0                   python  
 utmps-libs              0.1.2.1-r1              apk     
 uwsgi                   2.0.21-r3               apk     
