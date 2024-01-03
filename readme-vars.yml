@@ -30,7 +30,7 @@ param_env_vars:
   - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London."}
 param_usage_include_vols: true
 param_volumes:
-  - {vol_path: "/config", vol_host_path: "/path/to/config", desc: "Where config is stored."}
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files" }
 param_device_map: false
 param_devices: []
 param_usage_include_ports: true
@@ -57,6 +57,7 @@ app_setup_block_enabled: false
 app_setup_block: []
 # changelog
 changelogs:
+  - { date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
   - {date: "10.07.23:", desc: "Rebase to Alpine 3.18."}
   - {date: "01.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "11.02.23:", desc: "Rebase to Alpine 3.17."}
