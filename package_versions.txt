@@ -25,7 +25,7 @@ coreutils               9.4-r2                 apk
 coreutils-env           9.4-r2                 apk     
 coreutils-fmt           9.4-r2                 apk     
 coreutils-sha512sum     9.4-r2                 apk     
-cryptography            42.0.1                 python  
+cryptography            42.0.2                 python  
 curl                    8.5.0-r0               apk     
 gdbm                    1.23-r1                apk     
 gevent                  23.9.1                 python  
@@ -87,7 +87,7 @@ sqlite-libs             3.44.2-r0              apk
 sqlparse                0.4.4                  python  
 ssl_client              1.36.1-r15             apk     
 tzdata                  2023d-r0               apk     
-urllib3                 2.1.0                  python  
+urllib3                 2.2.0                  python  
 utmps-libs              0.1.2.2-r0             apk     
 uwsgi                   2.0.23-r1              apk     
 uwsgi-python3           2.0.23-r1              apk     
