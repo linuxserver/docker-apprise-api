@@ -17,7 +17,7 @@ busybox-binsh           1.36.1-r15             apk
 c-ares                  1.24.0-r1              apk     
 ca-certificates         20230506-r0            apk     
 ca-certificates-bundle  20230506-r0            apk     
-certifi                 2023.11.17             python  
+certifi                 2024.2.2               python  
 cffi                    1.16.0                 python  
 charset-normalizer      3.3.2                  python  
 click                   8.1.7                  python  
@@ -69,7 +69,7 @@ oniguruma               6.9.9-r0               apk
 packaging               23.2                   python  
 paho-mqtt               1.6.1                  python  
 pcre                    8.45-r3                apk     
-pip                     23.3.2                 python  
+pip                     24.0                   python  
 procps-ng               4.0.4-r0               apk     
 pyc                     3.11.6-r1              apk     
 pycparser               2.21                   python  
@@ -86,7 +86,7 @@ skalibs                 2.14.0.1-r0            apk
 sqlite-libs             3.44.2-r0              apk     
 sqlparse                0.4.4                  python  
 ssl_client              1.36.1-r15             apk     
-tzdata                  2023d-r0               apk     
+tzdata                  2024a-r0               apk     
 urllib3                 2.2.0                  python  
 utmps-libs              0.1.2.2-r0             apk     
 uwsgi                   2.0.23-r1              apk     
