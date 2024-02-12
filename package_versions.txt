@@ -1,5 +1,5 @@
 NAME                    VERSION                TYPE   
-Django                  5.0.1                  python  
+Django                  5.0.2                  python  
 Markdown                3.5.2                  python  
 PyYAML                  6.0.1                  python  
 Simple Launcher         1.1.0.14               dotnet  
@@ -43,7 +43,7 @@ libc-utils              0.7.2-r5               apk
 libcap2                 2.69-r1                apk     
 libcrypto3              3.1.4-r5               apk     
 libcurl                 8.5.0-r0               apk     
-libexpat                2.5.0-r2               apk     
+libexpat                2.6.0-r0               apk     
 libffi                  3.4.4-r3               apk     
 libgcc                  13.2.1_git20231014-r0  apk     
 libidn2                 2.3.4-r4               apk     
@@ -67,7 +67,7 @@ nghttp2-libs            1.58.0-r0              apk
 oauthlib                3.2.2                  python  
 oniguruma               6.9.9-r0               apk     
 packaging               23.2                   python  
-paho-mqtt               1.6.1                  python  
+paho-mqtt               2.0.0                  python  
 pcre                    8.45-r3                apk     
 pip                     24.0                   python  
 procps-ng               4.0.4-r0               apk     
