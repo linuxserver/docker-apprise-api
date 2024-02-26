@@ -25,7 +25,7 @@ coreutils               9.4-r2                 apk
 coreutils-env           9.4-r2                 apk     
 coreutils-fmt           9.4-r2                 apk     
 coreutils-sha512sum     9.4-r2                 apk     
-cryptography            42.0.3                 python  
+cryptography            42.0.5                 python  
 curl                    8.5.0-r0               apk     
 gdbm                    1.23-r1                apk     
 gevent                  24.2.1                 python  
@@ -71,11 +71,11 @@ paho-mqtt               2.0.0                  python
 pcre                    8.45-r3                apk     
 pip                     24.0                   python  
 procps-ng               4.0.4-r0               apk     
-pyc                     3.11.6-r1              apk     
+pyc                     3.11.8-r0              apk     
 pycparser               2.21                   python  
-python3                 3.11.6-r1              apk     
-python3-pyc             3.11.6-r1              apk     
-python3-pycache-pyc0    3.11.6-r1              apk     
+python3                 3.11.8-r0              apk     
+python3-pyc             3.11.8-r0              apk     
+python3-pycache-pyc0    3.11.8-r0              apk     
 readline                8.2.1-r2               apk     
 requests                2.31.0                 python  
 requests-oauthlib       1.3.1                  python  
