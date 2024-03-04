@@ -1,5 +1,5 @@
 NAME                    VERSION                TYPE                    
-Django                  5.0.2                  python                   
+Django                  5.0.3                  python                   
 Markdown                3.5.2                  python                   
 PyYAML                  6.0.1                  python                   
 Simple Launcher         1.1.0.14               dotnet  (+5 duplicates)  
