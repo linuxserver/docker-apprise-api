@@ -1,5 +1,5 @@
 NAME                    VERSION                TYPE                    
-Django                  5.0.3                  python                   
+Django                  5.0.4                  python                   
 Markdown                3.6                    python                   
 PyYAML                  6.0.1                  python                   
 Simple Launcher         1.1.0.14               dotnet  (+5 duplicates)  
@@ -7,7 +7,7 @@ alpine-baselayout       3.4.3-r2               apk
 alpine-baselayout-data  3.4.3-r2               apk                      
 alpine-keys             2.4-r1                 apk                      
 alpine-release          3.19.1-r0              apk                      
-apk-tools               2.14.0-r5              apk                      
+apk-tools               2.14.3-r1              apk                      
 apprise                 1.7.5                  python                   
 asgiref                 3.8.1                  python                   
 bash                    5.2.21-r0              apk                      
