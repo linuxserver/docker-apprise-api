@@ -7,7 +7,7 @@ alpine-baselayout       3.4.3-r2               apk
 alpine-baselayout-data  3.4.3-r2               apk                      
 alpine-keys             2.4-r1                 apk                      
 alpine-release          3.19.1-r0              apk                      
-apk-tools               2.14.3-r1              apk                      
+apk-tools               2.14.4-r0              apk                      
 apprise                 1.7.6                  python                   
 asgiref                 3.8.1                  python                   
 bash                    5.2.21-r0              apk                      
@@ -27,11 +27,12 @@ coreutils-fmt           9.4-r2                 apk
 coreutils-sha512sum     9.4-r2                 apk                      
 cryptography            42.0.5                 python                   
 curl                    8.5.0-r0               apk                      
+findutils               4.9.0-r5               apk                      
 gdbm                    1.23-r1                apk                      
 gevent                  24.2.1                 python                   
 gntp                    1.0.3                  python                   
 greenlet                3.0.3                  python                   
-gunicorn                21.2.0                 python                   
+gunicorn                22.0.0                 python                   
 idna                    3.7                    python                   
 jansson                 2.14-r4                apk                      
 jq                      1.7.1-r0               apk                      
