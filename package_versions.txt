@@ -26,7 +26,7 @@ coreutils               9.4-r2                 apk
 coreutils-env           9.4-r2                 apk                      
 coreutils-fmt           9.4-r2                 apk                      
 coreutils-sha512sum     9.4-r2                 apk                      
-cryptography            42.0.7                 python                   
+cryptography            42.0.8                 python                   
 curl                    8.5.0-r0               apk                      
 findutils               4.9.0-r5               apk                      
 gdbm                    1.23-r1                apk                      
@@ -68,7 +68,7 @@ netcat-openbsd          1.226-r0               apk
 nghttp2-libs            1.58.0-r0              apk                      
 oauthlib                3.2.2                  python                   
 oniguruma               6.9.9-r0               apk                      
-packaging               24.0                   python                   
+packaging               24.1                   python                   
 paho-mqtt               1.6.1                  python                   
 pcre                    8.45-r3                apk                      
 pip                     24.0                   python                   
