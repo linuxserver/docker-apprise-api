@@ -6,7 +6,7 @@ Simple Launcher         1.1.0.14               dotnet  (+5 duplicates)
 alpine-baselayout       3.4.3-r2               apk                      
 alpine-baselayout-data  3.4.3-r2               apk                      
 alpine-keys             2.4-r1                 apk                      
-alpine-release          3.19.1-r0              apk                      
+alpine-release          3.19.2-r0              apk                      
 apk-tools               2.14.4-r0              apk                      
 apprise                 1.8.0                  python                   
 asgiref                 3.8.1                  python                   
@@ -71,7 +71,7 @@ oniguruma               6.9.9-r0               apk
 packaging               24.1                   python                   
 paho-mqtt               1.6.1                  python                   
 pcre                    8.45-r3                apk                      
-pip                     24.0                   python                   
+pip                     24.1                   python                   
 procps-ng               4.0.4-r0               apk                      
 pyc                     3.11.9-r0              apk                      
 pycparser               2.22                   python                   
@@ -89,7 +89,7 @@ sqlite-libs             3.44.2-r0              apk
 sqlparse                0.5.0                  python                   
 ssl_client              1.36.1-r19             apk                      
 tzdata                  2024a-r0               apk                      
-urllib3                 2.2.1                  python                   
+urllib3                 2.2.2                  python                   
 utmps-libs              0.1.2.2-r0             apk                      
 uwsgi                   2.0.23-r1              apk                      
 uwsgi-python3           2.0.23-r1              apk                      
