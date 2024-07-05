@@ -79,8 +79,10 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
+      - APPRISE_ATTACH_SIZE=0 #optional
     volumes:
       - /path/to/apprise-api/config:/config
+      - /path/to/apprise-api/attachments:/attachments #optional
     ports:
       - 8000:8000
     restart: unless-stopped
@@ -94,8 +96,10 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
+  -e APPRISE_ATTACH_SIZE=0 `#optional` \
   -p 8000:8000 \
   -v /path/to/apprise-api/config:/config \
+  -v /path/to/apprise-api/attachments:/attachments `#optional` \
   --restart unless-stopped \
   lscr.io/linuxserver/apprise-api:latest
 ```
@@ -110,7 +114,9 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
+| `-e APPRISE_ATTACH_SIZE=0` | Max attachment size in Mb. `0` disables attachments. Must have `/attachments` mounted to set to a positive value. |
 | `-v /config` | Persistent config files |
+| `-v /attachments` | Temporary storage for attachments when sent with notifications. |
 
 ## Environment variables from files (Docker secrets)
 

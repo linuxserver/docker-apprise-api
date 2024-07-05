@@ -9,7 +9,9 @@ ARG APPRISE_TAG
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="Roxedus"
 
-ENV APPRISE_CONFIG_DIR=/config
+ENV APPRISE_CONFIG_DIR=/config \
+  APPRISE_ATTACH_DIR=/attachments \
+  APPRISE_ATTACH_SIZE=0
 
 RUN \
   echo "**** install build packages ****" && \
