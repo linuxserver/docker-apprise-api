@@ -117,6 +117,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e APPRISE_ATTACH_SIZE=0` | Max attachment size in Mb. `0` disables attachments. Must have `/attachments` mounted to set to a positive value. |
 | `-v /config` | Persistent config files |
 | `-v /attachments` | Temporary storage for attachments when sent with notifications. |
+| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://docs.linuxserver.io/misc/read-only/). |
 
 ## Environment variables from files (Docker secrets)
 
