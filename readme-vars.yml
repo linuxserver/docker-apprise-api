@@ -21,21 +21,60 @@ common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files" }
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files"}
 param_usage_include_ports: true
 param_ports:
   - {external_port: "8000", internal_port: "8000", port_desc: "Port for apprise's interface and API."}
-
 opt_param_usage_include_vols: true
 opt_param_volumes:
-  - { vol_path: "/attachments", vol_host_path: "/path/to/{{ project_name }}/attachments", desc: "Temporary storage for attachments when sent with notifications." }
-
+  - {vol_path: "/attachments", vol_host_path: "/path/to/{{ project_name }}/attachments", desc: "Temporary storage for attachments when sent with notifications."}
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - { env_var: "APPRISE_ATTACH_SIZE", env_value: "0", desc: "Max attachment size in Mb. `0` disables attachments. Must have `/attachments` mounted to set to a positive value." }
-
+  - {env_var: "APPRISE_ATTACH_SIZE", env_value: "0", desc: "Max attachment size in Mb. `0` disables attachments. Must have `/attachments` mounted to set to a positive value."}
 readonly_supported: true
-
+# init diagram
+init_diagram: |
+  "apprise-api:latest": {
+    docker-mods
+    base {
+      fix-attr +\nlegacy cont-init
+    }
+    docker-mods -> base
+    legacy-services
+    custom services
+    init-services -> legacy-services
+    init-services -> custom services
+    custom services -> legacy-services
+    legacy-services -> ci-service-check
+    init-migrations -> init-adduser
+    init-config -> init-apprise-config
+    init-os-end -> init-config
+    init-apprise-config -> init-config-end
+    init-config -> init-config-end
+    init-os-end -> init-crontab-config
+    init-mods-end -> init-custom-files
+    base -> init-envfile
+    base -> init-migrations
+    base -> init-mods
+    init-config-end -> init-mods
+    init-mods -> init-mods-end
+    init-mods-package-install -> init-mods-end
+    init-mods -> init-mods-package-install
+    base -> init-os-end
+    init-adduser -> init-os-end
+    init-envfile -> init-os-end
+    init-migrations -> init-os-end
+    init-custom-files -> init-services
+    init-mods-end -> init-services
+    init-services -> svc-apprise
+    svc-apprise -> legacy-services
+    init-services -> svc-cron
+    svc-cron -> legacy-services
+  }
+  Base Images: {
+    "baseimage-alpine:3.20"
+  }
+  "apprise-api:latest" <- Base Images
 # changelog
 changelogs:
   - {date: "24.06.24:", desc: "Rebase to Alpine 3.20."}
