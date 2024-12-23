@@ -575,7 +575,7 @@ pipeline {
           --label \"org.opencontainers.image.licenses=GPL-3.0-only\" \
           --label \"org.opencontainers.image.ref.name=${COMMIT_SHA}\" \
           --label \"org.opencontainers.image.title=Apprise-api\" \
-          --label \"org.opencontainers.image.description=[Apprise-api](https://github.com/caronc/apprise-api) Takes advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.    * Send notifications to more then 65+ services.  * An incredibly lightweight gateway to Apprise.  * A production ready micro-service at your disposal.    Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.  \" \
+          --label \"org.opencontainers.image.description=[Apprise-api](https://github.com/caronc/apprise-api) Takes advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.    * Send notifications to more than 100 services.  * An incredibly lightweight gateway to Apprise.  * A production ready micro-service at your disposal.  * A Simple Website to verify and test your configuration with.    Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.  \" \
           --no-cache --pull -t ${IMAGE}:${META_TAG} --platform=linux/amd64 \
           --provenance=true --sbom=true --builder=container --load \
           --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
@@ -641,7 +641,7 @@ pipeline {
               --label \"org.opencontainers.image.licenses=GPL-3.0-only\" \
               --label \"org.opencontainers.image.ref.name=${COMMIT_SHA}\" \
               --label \"org.opencontainers.image.title=Apprise-api\" \
-              --label \"org.opencontainers.image.description=[Apprise-api](https://github.com/caronc/apprise-api) Takes advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.    * Send notifications to more then 65+ services.  * An incredibly lightweight gateway to Apprise.  * A production ready micro-service at your disposal.    Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.  \" \
+              --label \"org.opencontainers.image.description=[Apprise-api](https://github.com/caronc/apprise-api) Takes advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.    * Send notifications to more than 100 services.  * An incredibly lightweight gateway to Apprise.  * A production ready micro-service at your disposal.  * A Simple Website to verify and test your configuration with.    Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.  \" \
               --no-cache --pull -t ${IMAGE}:amd64-${META_TAG} --platform=linux/amd64 \
               --provenance=true --sbom=true --builder=container --load \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
@@ -700,7 +700,7 @@ pipeline {
               --label \"org.opencontainers.image.licenses=GPL-3.0-only\" \
               --label \"org.opencontainers.image.ref.name=${COMMIT_SHA}\" \
               --label \"org.opencontainers.image.title=Apprise-api\" \
-              --label \"org.opencontainers.image.description=[Apprise-api](https://github.com/caronc/apprise-api) Takes advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.    * Send notifications to more then 65+ services.  * An incredibly lightweight gateway to Apprise.  * A production ready micro-service at your disposal.    Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.  \" \
+              --label \"org.opencontainers.image.description=[Apprise-api](https://github.com/caronc/apprise-api) Takes advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.    * Send notifications to more than 100 services.  * An incredibly lightweight gateway to Apprise.  * A production ready micro-service at your disposal.  * A Simple Website to verify and test your configuration with.    Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.  \" \
               --no-cache --pull -f Dockerfile.aarch64 -t ${IMAGE}:arm64v8-${META_TAG} --platform=linux/arm64 \
               --provenance=true --sbom=true --builder=container --load \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
