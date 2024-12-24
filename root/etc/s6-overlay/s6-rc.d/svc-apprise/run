@@ -1,6 +1,12 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
-exec \
-    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 8000" \
-    cd /app/apprise-api/apprise_api s6-setuidgid abc /usr/sbin/uwsgi --http-socket=:8000 --enable-threads --plugin=python3 --module=core.wsgi:application --static-map=/s=static --buffer-size=32768 -H /lsiopy
+if [[ -z ${LSIO_NON_ROOT_USER} ]]; then
+    exec \
+        s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 8000" \
+        cd /app/apprise-api/apprise_api s6-setuidgid abc /usr/sbin/uwsgi --http-socket=:8000 --enable-threads --plugin=python3 --module=core.wsgi:application --static-map=/s=static --buffer-size=32768 -H /lsiopy
+else
+    exec \
+        s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 8000" \
+        cd /app/apprise-api/apprise_api /usr/sbin/uwsgi --http-socket=:8000 --enable-threads --plugin=python3 --module=core.wsgi:application --static-map=/s=static --buffer-size=32768 -H /lsiopy
+fi
