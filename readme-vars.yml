@@ -13,6 +13,7 @@ project_blurb: |
 
   Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Monitoring"
 # supported architectures
 available_architectures:
   - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
