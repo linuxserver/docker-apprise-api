@@ -29,6 +29,7 @@ coreutils-sha512sum     9.5-r2            apk
 cryptography            44.0.2            python                   
 curl                    8.12.1-r0         apk                      
 django                  5.1.7             python                   
+django-prometheus       2.3.1             python                   
 findutils               4.10.0-r0         apk                      
 gdbm                    1.24-r0           apk                      
 gevent                  24.11.1           python                   
@@ -63,7 +64,7 @@ libpsl                  0.21.5-r3         apk
 libssl3                 3.3.3-r0          apk                      
 libstdc++               14.2.0-r4         apk                      
 libunistring            1.2-r0            apk                      
-libxml2                 2.13.4-r4         apk                      
+libxml2                 2.13.4-r5         apk                      
 linux-pam               1.6.1-r1          apk                      
 mailcap                 2.1.54-r0         apk                      
 markdown                3.7               python                   
@@ -83,6 +84,7 @@ pcre2                   10.43-r0          apk
 pip                     25.0.1            python                   
 platformdirs            4.2.2             python                   
 procps-ng               4.0.4-r2          apk                      
+prometheus-client       0.21.1            python                   
 pyc                     3.12.9-r0         apk                      
 pycparser               2.22              python                   
 python3                 3.12.9-r0         apk                      
