@@ -20,7 +20,7 @@ ca-certificates-bundle  20250619-r0       apk
 catatonit               0.2.1-r0          apk                      
 certifi                 2025.8.3          python                   
 cffi                    1.17.1            python                   
-charset-normalizer      3.4.2             python                   
+charset-normalizer      3.4.3             python                   
 cli                     UNKNOWN           binary                   
 cli-32                  UNKNOWN           binary                   
 cli-64                  UNKNOWN           binary                   
@@ -38,7 +38,7 @@ findutils               4.10.0-r0         apk
 gdbm                    1.24-r0           apk                      
 gevent                  25.5.1            python                   
 gntp                    1.0.3             python                   
-greenlet                3.2.3             python                   
+greenlet                3.2.4             python                   
 gui                     UNKNOWN           binary                   
 gui-32                  UNKNOWN           binary                   
 gui-64                  UNKNOWN           binary                   
