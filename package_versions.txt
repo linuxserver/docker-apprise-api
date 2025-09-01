@@ -36,7 +36,7 @@ django                  5.2.5             python
 django-prometheus       2.4.1             python                   
 findutils               4.10.0-r0         apk                      
 gdbm                    1.24-r0           apk                      
-gevent                  25.5.1            python                   
+gevent                  25.8.2            python                   
 gntp                    1.0.3             python                   
 greenlet                3.2.4             python                   
 gui                     UNKNOWN           binary                   
