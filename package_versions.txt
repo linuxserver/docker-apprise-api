@@ -20,7 +20,7 @@ ca-certificates-bundle  20250911-r0       apk
 catatonit               0.2.1-r0          apk                      
 certifi                 2025.10.5         python                   
 cffi                    2.0.0             python                   
-charset-normalizer      3.4.3             python                   
+charset-normalizer      3.4.4             python                   
 cli                     UNKNOWN           binary                   
 cli-32                  UNKNOWN           binary                   
 cli-64                  UNKNOWN           binary                   
@@ -30,7 +30,7 @@ coreutils               9.7-r1            apk
 coreutils-env           9.7-r1            apk                      
 coreutils-fmt           9.7-r1            apk                      
 coreutils-sha512sum     9.7-r1            apk                      
-cryptography            46.0.2            python                   
+cryptography            46.0.3            python                   
 curl                    8.14.1-r2         apk                      
 django                  5.2.7             python                   
 django-prometheus       2.4.1             python                   
@@ -90,7 +90,7 @@ oniguruma               6.9.10-r0         apk
 packaging               24.2              python                   
 packaging               25.0              python                   
 paho-mqtt               1.6.1             python                   
-pcre2                   10.43-r1          apk                      
+pcre2                   10.46-r0          apk                      
 pip                     25.2              python                   
 platformdirs            4.2.2             python                   
 procps-ng               4.0.4-r3          apk                      
