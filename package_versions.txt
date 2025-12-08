@@ -26,13 +26,13 @@ coreutils-fmt           9.7-r1            apk
 coreutils-sha512sum     9.7-r1            apk                      
 cryptography            46.0.3            python                   
 curl                    8.14.1-r2         apk                      
-django                  5.2.8             python                   
+django                  5.2.9             python                   
 django-prometheus       2.4.1             python                   
 findutils               4.10.0-r0         apk                      
 gdbm                    1.24-r0           apk                      
 gevent                  25.9.1            python                   
 gntp                    1.0.3             python                   
-greenlet                3.2.4             python                   
+greenlet                3.3.0             python                   
 gunicorn                23.0.0            python                   
 idna                    3.11              python                   
 jansson                 2.14.1-r0         apk                      
@@ -91,7 +91,7 @@ sqlite-libs             3.49.2-r1         apk
 sqlparse                0.5.4             python                   
 ssl_client              1.37.0-r20        apk                      
 tzdata                  2025b-r0          apk                      
-urllib3                 2.5.0             python                   
+urllib3                 2.6.0             python                   
 utmps-libs              0.1.3.1-r0        apk                      
 uwsgi                   2.0.30-r0         apk                      
 uwsgi-python3           2.0.30-r0         apk                      
