@@ -6,13 +6,13 @@ alpine-baselayout-data  3.7.0-r0          apk
 alpine-keys             2.5-r0            apk                      
 alpine-release          3.22.2-r0         apk                      
 apk-tools               2.14.9-r3         apk                      
-apprise                 1.9.5             python                   
+apprise                 1.9.6             python                   
 asgiref                 3.11.0            python                   
 bash                    5.2.37-r0         apk                      
 brotli-libs             1.1.0-r2          apk                      
 busybox                 1.37.0-r20        apk                      
 busybox-binsh           1.37.0-r20        apk                      
-c-ares                  1.34.5-r0         apk                      
+c-ares                  1.34.6-r0         apk                      
 ca-certificates         20250911-r0       apk                      
 ca-certificates-bundle  20250911-r0       apk                      
 catatonit               0.2.1-r0          apk                      
@@ -90,8 +90,8 @@ skalibs-libs            2.14.4.0-r0       apk
 sqlite-libs             3.49.2-r1         apk                      
 sqlparse                0.5.4             python                   
 ssl_client              1.37.0-r20        apk                      
-tzdata                  2025b-r0          apk                      
-urllib3                 2.6.0             python                   
+tzdata                  2025c-r0          apk                      
+urllib3                 2.6.2             python                   
 utmps-libs              0.1.3.1-r0        apk                      
 uwsgi                   2.0.30-r0         apk                      
 uwsgi-python3           2.0.30-r0         apk                      
