@@ -26,7 +26,7 @@ coreutils-fmt           9.7-r1            apk
 coreutils-sha512sum     9.7-r1            apk                      
 cryptography            46.0.3            python                   
 curl                    8.14.1-r2         apk                      
-django                  5.2.9             python                   
+django                  5.2.10            python                   
 django-prometheus       2.4.1             python                   
 findutils               4.10.0-r0         apk                      
 gdbm                    1.24-r0           apk                      
@@ -91,7 +91,7 @@ sqlite-libs             3.49.2-r1         apk
 sqlparse                0.5.5             python                   
 ssl_client              1.37.0-r20        apk                      
 tzdata                  2025c-r0          apk                      
-urllib3                 2.6.2             python                   
+urllib3                 2.6.3             python                   
 utmps-libs              0.1.3.1-r0        apk                      
 uwsgi                   2.0.30-r0         apk                      
 uwsgi-python3           2.0.30-r0         apk                      
@@ -99,5 +99,5 @@ wheel                   0.45.1            python
 xz-libs                 5.8.1-r0          apk                      
 zlib                    1.3.1-r2          apk                      
 zope-event              6.1               python                   
-zope-interface          8.1.1             python                   
+zope-interface          8.2               python                   
 zstd-libs               1.5.7-r0          apk                      
