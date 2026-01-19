@@ -74,7 +74,7 @@ paho-mqtt               1.6.1             python
 pcre2                   10.46-r0          apk                      
 pip                     25.3              python                   
 procps-ng               4.0.4-r3          apk                      
-prometheus-client       0.23.1            python                   
+prometheus-client       0.24.1            python                   
 pyc                     3.12.12-r0        apk                      
 pycparser               2.23              python                   
 python3                 3.12.12-r0        apk                      
