@@ -7,7 +7,7 @@ alpine-keys             2.5-r0            apk
 alpine-release          3.22.3-r0         apk                      
 apk-tools               2.14.9-r3         apk                      
 apprise                 1.9.7             python                   
-asgiref                 3.11.0            python                   
+asgiref                 3.11.1            python                   
 bash                    5.2.37-r0         apk                      
 brotli-libs             1.1.0-r2          apk                      
 busybox                 1.37.0-r20        apk                      
@@ -26,14 +26,14 @@ coreutils-fmt           9.7-r1            apk
 coreutils-sha512sum     9.7-r1            apk                      
 cryptography            46.0.4            python                   
 curl                    8.14.1-r2         apk                      
-django                  5.2.10            python                   
+django                  5.2.11            python                   
 django-prometheus       2.4.1             python                   
 findutils               4.10.0-r0         apk                      
 gdbm                    1.24-r0           apk                      
 gevent                  25.9.1            python                   
 gntp                    1.0.3             python                   
 greenlet                3.3.1             python                   
-gunicorn                25.0.0            python                   
+gunicorn                25.0.3            python                   
 idna                    3.11              python                   
 jansson                 2.14.1-r0         apk                      
 jq                      1.8.1-r0          apk                      
@@ -44,7 +44,7 @@ libbz2                  1.0.8-r6          apk
 libcap2                 2.76-r0           apk                      
 libcrypto3              3.5.5-r0          apk                      
 libcurl                 8.14.1-r2         apk                      
-libexpat                2.7.3-r0          apk                      
+libexpat                2.7.4-r0          apk                      
 libffi                  3.4.8-r0          apk                      
 libgcc                  14.2.0-r6         apk                      
 libidn2                 2.3.7-r0          apk                      
@@ -72,7 +72,7 @@ oniguruma               6.9.10-r0         apk
 packaging               26.0              python                   
 paho-mqtt               1.6.1             python                   
 pcre2                   10.46-r0          apk                      
-pip                     26.0              python                   
+pip                     26.0.1            python                   
 procps-ng               4.0.4-r3          apk                      
 prometheus-client       0.24.1            python                   
 pyc                     3.12.12-r0        apk                      
