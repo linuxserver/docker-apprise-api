@@ -32,7 +32,7 @@ findutils               4.10.0-r0         apk
 gdbm                    1.24-r0           apk                      
 gevent                  25.9.1            python                   
 gntp                    1.0.3             python                   
-greenlet                3.3.1             python                   
+greenlet                3.3.2             python                   
 gunicorn                25.1.0            python                   
 idna                    3.11              python                   
 jansson                 2.14.1-r0         apk                      
