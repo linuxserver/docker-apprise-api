@@ -1,12 +1,13 @@
 NAME                    VERSION           TYPE                    
 Simple Launcher         1.1.0.14          binary  (+5 duplicates)  
 acl-libs                2.3.2-r1          apk                      
+aiodns                  4.0.0             python                   
 alpine-baselayout       3.7.0-r0          apk                      
 alpine-baselayout-data  3.7.0-r0          apk                      
 alpine-keys             2.5-r0            apk                      
 alpine-release          3.22.3-r0         apk                      
 apk-tools               2.14.9-r3         apk                      
-apprise                 1.9.7             python                   
+apprise                 1.9.8             python                   
 asgiref                 3.11.1            python                   
 bash                    5.2.37-r0         apk                      
 brotli-libs             1.1.0-r2          apk                      
@@ -18,7 +19,7 @@ ca-certificates-bundle  20250911-r0       apk
 catatonit               0.2.1-r0          apk                      
 certifi                 2026.2.25         python                   
 cffi                    2.0.0             python                   
-charset-normalizer      3.4.4             python                   
+charset-normalizer      3.4.5             python                   
 click                   8.3.1             python                   
 coreutils               9.7-r1            apk                      
 coreutils-env           9.7-r1            apk                      
@@ -26,7 +27,7 @@ coreutils-fmt           9.7-r1            apk
 coreutils-sha512sum     9.7-r1            apk                      
 cryptography            46.0.5            python                   
 curl                    8.14.1-r2         apk                      
-django                  5.2.11            python                   
+django                  5.2.12            python                   
 django-prometheus       2.4.1             python                   
 findutils               4.10.0-r0         apk                      
 gdbm                    1.24-r0           apk                      
@@ -72,10 +73,14 @@ oniguruma               6.9.10-r0         apk
 packaging               26.0              python                   
 paho-mqtt               1.6.1             python                   
 pcre2                   10.46-r0          apk                      
+pgpy                    0.6.0             python                   
 pip                     26.0.1            python                   
 procps-ng               4.0.4-r3          apk                      
 prometheus-client       0.24.1            python                   
+pyasn1                  0.6.2             python                   
+pyasn1-modules          0.4.2             python                   
 pyc                     3.12.12-r0        apk                      
+pycares                 5.0.1             python                   
 pycparser               3.0               python                   
 python3                 3.12.12-r0        apk                      
 python3-pyc             3.12.12-r0        apk                      
@@ -86,11 +91,14 @@ requests                2.32.5            python
 requests-oauthlib       2.0.0             python                   
 scanelf                 1.3.8-r1          apk                      
 shadow                  4.17.3-r0         apk                      
+six                     1.17.0            python                   
 skalibs-libs            2.14.4.0-r0       apk                      
+slixmpp                 1.13.2            python                   
+smpplib                 2.2.4             python                   
 sqlite-libs             3.49.2-r1         apk                      
 sqlparse                0.5.5             python                   
 ssl_client              1.37.0-r20        apk                      
-tzdata                  2025c-r0          apk                      
+tzdata                  2026a-r0          apk                      
 urllib3                 2.6.3             python                   
 utmps-libs              0.1.3.1-r0        apk                      
 uwsgi                   2.0.30-r0         apk                      
