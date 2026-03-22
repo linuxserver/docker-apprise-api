@@ -7,7 +7,7 @@ alpine-baselayout-data  3.7.0-r0          apk
 alpine-keys             2.5-r0            apk                      
 alpine-release          3.22.3-r0         apk                      
 apk-tools               2.14.9-r3         apk                      
-apprise                 1.9.8             python                   
+apprise                 1.9.9             python                   
 asgiref                 3.11.1            python                   
 bash                    5.2.37-r0         apk                      
 brotli-libs             1.1.0-r2          apk                      
@@ -45,7 +45,7 @@ libbz2                  1.0.8-r6          apk
 libcap2                 2.76-r0           apk                      
 libcrypto3              3.5.5-r0          apk                      
 libcurl                 8.14.1-r2         apk                      
-libexpat                2.7.4-r0          apk                      
+libexpat                2.7.5-r0          apk                      
 libffi                  3.4.8-r0          apk                      
 libgcc                  14.2.0-r6         apk                      
 libidn2                 2.3.7-r0          apk                      
@@ -77,7 +77,7 @@ pgpy                    0.6.0             python
 pip                     26.0.1            python                   
 procps-ng               4.0.4-r3          apk                      
 prometheus-client       0.24.1            python                   
-pyasn1                  0.6.2             python                   
+pyasn1                  0.6.3             python                   
 pyasn1-modules          0.4.2             python                   
 pyc                     3.12.12-r0        apk                      
 pycares                 5.0.1             python                   
