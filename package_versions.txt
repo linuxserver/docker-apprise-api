@@ -74,7 +74,7 @@ packaging               26.2              python
 paho-mqtt               1.6.1             python                   
 pcre2                   10.46-r0          apk                      
 pgpy                    0.6.0             python                   
-pip                     26.0.1            python                   
+pip                     26.1              python                   
 procps-ng               4.0.4-r3          apk                      
 prometheus-client       0.25.0            python                   
 pyasn1                  0.6.3             python                   
