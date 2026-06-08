@@ -27,7 +27,7 @@ coreutils-fmt           9.7-r1            apk
 coreutils-sha512sum     9.7-r1            apk                      
 cryptography            48.0.0            python                   
 curl                    8.14.1-r2         apk                      
-django                  6.0.5             python                   
+django                  6.0.6             python                   
 django-prometheus       2.5.0             python                   
 findutils               4.10.0-r0         apk                      
 gdbm                    1.24-r0           apk                      
@@ -35,7 +35,7 @@ gevent                  26.5.0            python
 gntp                    1.0.3             python                   
 greenlet                3.5.1             python                   
 gunicorn                26.0.0            python                   
-idna                    3.17              python                   
+idna                    3.18              python                   
 jansson                 2.14.1-r0         apk                      
 jq                      1.8.1-r0          apk                      
 libapk2                 2.14.9-r3         apk                      
