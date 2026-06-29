@@ -20,7 +20,7 @@ catatonit               0.2.1-r0          apk
 certifi                 2026.6.17         python                   
 cffi                    2.0.0             python                   
 charset-normalizer      3.4.7             python                   
-click                   8.4.1             python                   
+click                   8.4.2             python                   
 coreutils               9.7-r1            apk                      
 coreutils-env           9.7-r1            apk                      
 coreutils-fmt           9.7-r1            apk                      
@@ -33,7 +33,7 @@ findutils               4.10.0-r0         apk
 gdbm                    1.24-r0           apk                      
 gevent                  26.5.0            python                   
 gntp                    1.0.3             python                   
-greenlet                3.5.2             python                   
+greenlet                3.5.3             python                   
 gunicorn                26.0.0            python                   
 idna                    3.18              python                   
 jansson                 2.14.1-r0         apk                      
@@ -45,7 +45,7 @@ libbz2                  1.0.8-r6          apk
 libcap2                 2.78-r0           apk                      
 libcrypto3              3.5.7-r0          apk                      
 libcurl                 8.14.1-r2         apk                      
-libexpat                2.8.1-r0          apk                      
+libexpat                2.8.2-r0          apk                      
 libffi                  3.4.8-r0          apk                      
 libgcc                  14.2.0-r6         apk                      
 libidn2                 2.3.7-r0          apk                      
