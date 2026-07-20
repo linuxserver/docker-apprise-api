@@ -8,7 +8,7 @@ alpine-keys             2.5-r0            apk
 alpine-release          3.22.5-r0         apk                      
 apk-tools               2.14.10-r0        apk                      
 apprise                 1.12.0            python                   
-asgiref                 3.11.1            python                   
+asgiref                 3.12.1            python                   
 bash                    5.2.37-r0         apk                      
 brotli-libs             1.1.0-r2          apk                      
 busybox                 1.37.0-r20        apk                      
@@ -26,7 +26,7 @@ coreutils-env           9.7-r1            apk
 coreutils-fmt           9.7-r1            apk                      
 coreutils-sha512sum     9.7-r1            apk                      
 cryptography            49.0.0            python                   
-curl                    8.14.1-r2         apk                      
+curl                    8.14.1-r3         apk                      
 django                  6.0.7             python                   
 django-prometheus       2.5.0             python                   
 findutils               4.10.0-r0         apk                      
@@ -44,7 +44,7 @@ libbsd                  0.12.2-r0         apk
 libbz2                  1.0.8-r6          apk                      
 libcap2                 2.78-r0           apk                      
 libcrypto3              3.5.7-r0          apk                      
-libcurl                 8.14.1-r2         apk                      
+libcurl                 8.14.1-r3         apk                      
 libexpat                2.8.2-r0          apk                      
 libffi                  3.4.8-r0          apk                      
 libgcc                  14.2.0-r6         apk                      
@@ -98,7 +98,7 @@ smpplib                 2.2.4             python
 sqlite-libs             3.49.2-r1         apk                      
 sqlparse                0.5.5             python                   
 ssl_client              1.37.0-r20        apk                      
-tzdata                  2026b-r0          apk                      
+tzdata                  2026c-r0          apk                      
 urllib3                 2.7.0             python                   
 utmps-libs              0.1.3.1-r0        apk                      
 uwsgi                   2.0.30-r0         apk                      
