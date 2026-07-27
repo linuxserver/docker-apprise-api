@@ -17,7 +17,7 @@ c-ares                  1.34.8-r0         apk
 ca-certificates         20260611-r0       apk                      
 ca-certificates-bundle  20260611-r0       apk                      
 catatonit               0.2.1-r0          apk                      
-certifi                 2026.6.17         python                   
+certifi                 2026.7.22         python                   
 cffi                    2.1.0             python                   
 charset-normalizer      3.4.9             python                   
 click                   8.4.2             python                   
@@ -31,9 +31,9 @@ django                  6.0.7             python
 django-prometheus       2.5.0             python                   
 findutils               4.10.0-r0         apk                      
 gdbm                    1.24-r0           apk                      
-gevent                  26.5.0            python                   
+gevent                  26.7.0            python                   
 gntp                    1.0.3             python                   
-greenlet                3.5.3             python                   
+greenlet                3.5.4             python                   
 gunicorn                26.0.0            python                   
 idna                    3.18              python                   
 jansson                 2.14.1-r0         apk                      
@@ -76,7 +76,7 @@ pcre2                   10.46-r0          apk
 pgpy                    0.6.0             python                   
 pip                     26.1.2            python                   
 procps-ng               4.0.4-r3          apk                      
-prometheus-client       0.25.0            python                   
+prometheus-client       0.26.0            python                   
 pyasn1                  0.6.4             python                   
 pyasn1-modules          0.4.2             python                   
 pyc                     3.12.13-r0        apk                      
