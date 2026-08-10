@@ -18,7 +18,7 @@ ca-certificates         20260611-r0       apk
 ca-certificates-bundle  20260611-r0       apk                      
 catatonit               0.2.1-r0          apk                      
 certifi                 2026.7.22         python                   
-cffi                    2.1.0             python                   
+cffi                    2.1.1             python                   
 charset-normalizer      3.4.9             python                   
 click                   8.4.2             python                   
 coreutils               9.7-r1            apk                      
@@ -27,7 +27,7 @@ coreutils-fmt           9.7-r1            apk
 coreutils-sha512sum     9.7-r1            apk                      
 cryptography            50.0.0            python                   
 curl                    8.14.1-r3         apk                      
-django                  6.0.7             python                   
+django                  6.0.8             python                   
 django-prometheus       2.5.0             python                   
 findutils               4.10.0-r0         apk                      
 gdbm                    1.24-r0           apk                      
@@ -70,11 +70,11 @@ netcat-openbsd          1.229.1-r0        apk
 nghttp2-libs            1.69.0-r0         apk                      
 oauthlib                3.3.1             python                   
 oniguruma               6.9.10-r0         apk                      
-packaging               26.2              python                   
+packaging               26.3              python                   
 paho-mqtt               2.1.0             python                   
 pcre2                   10.46-r0          apk                      
 pgpy                    0.6.0             python                   
-pip                     26.2              python                   
+pip                     26.2.1            python                   
 procps-ng               4.0.4-r3          apk                      
 prometheus-client       0.26.0            python                   
 pyasn1                  0.6.4             python                   
