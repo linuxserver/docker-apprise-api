@@ -80,7 +80,7 @@ prometheus-client       0.26.0            python
 pyasn1                  0.6.4             python                   
 pyasn1-modules          0.4.2             python                   
 pyc                     3.12.15-r0        apk                      
-pycares                 5.0.1             python                   
+pycares                 5.1.0             python                   
 pycparser               3.0               python                   
 python3                 3.12.15-r0        apk                      
 python3-pyc             3.12.15-r0        apk                      
