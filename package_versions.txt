@@ -19,7 +19,7 @@ ca-certificates-bundle  20261020-r0       apk
 catatonit               0.2.1-r0          apk                      
 certifi                 2026.11.20        python                   
 cffi                    2.1.1             python                   
-charset-normalizer      3.5.2             python                   
+charset-normalizer      3.5.3             python                   
 click                   8.5.1             python                   
 coreutils               9.7-r1            apk                      
 coreutils-env           9.7-r1            apk                      
@@ -72,7 +72,7 @@ netcat-openbsd          1.229.1-r0        apk
 nghttp2-libs            1.69.0-r0         apk                      
 oauthlib                4.0.1             python                   
 oniguruma               6.9.10-r0         apk                      
-packaging               26.3              python                   
+packaging               26.4              python                   
 paho-mqtt               2.2.0             python                   
 pcre2                   10.46-r1          apk                      
 pgpy                    0.6.0             python                   
